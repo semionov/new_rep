@@ -11,7 +11,7 @@ version '1.0'
 
 mainClassName = 'com.annimon.tgbotsmodule.Runner'
 sourceCompatibility = 10
-apply plugin: 'com.github.johnrengelman.shadow'
+
 
 repositories {
     mavenCentral()
@@ -22,7 +22,7 @@ dependencies {
 }
 
 shadowJar {
-mainClassName = 'com.annimon.tgbotsmodule.Runner'
+
     mergeServiceFiles()
     exclude 'META-INF/*.DSA'
     exclude 'META-INF/*.RSA'
