@@ -16,7 +16,7 @@ plugins {
 group 'com.senderman'
 version '1.0'
 
-mainClassName = 'com.package.to.Class'  //mainClassName = 'com.annimon.tgbotsmodule.Runner'
+mainClassName = 'com.annimon.tgbotsmodule.Runner'
 sourceCompatibility = 10
 
 repositories {
